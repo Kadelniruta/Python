@@ -52,11 +52,16 @@
 # print(f"Simple Interest is ", {SI})
 
 
-T = float(input('Enter Time period: '))
-R = float(input('Enter Rate of Interest: '))
-SI = float(input("Enter Simple Interest:"))
-P = (SI/(T*R))
-print(f'Principal Amount is ',{P})
+# T = float(input('Enter Time period: '))
+# R = float(input('Enter Rate of Interest: '))
+# SI = float(input("Enter Simple Interest:"))
+# P = (SI/(T*R))
+# print(f'Principal Amount is ',{P})
+
+x= int(input("Enter the first number: "))
+y = int(input("Enter the second numbetr: "))
+z = x+y
+print(f"sum of {x} + {y} is ", {z})
 
 
 
