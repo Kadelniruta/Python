@@ -115,3 +115,14 @@ number = [1,2,1]
 copy_number = number.copy()
 number.reverse
     
+# factorial using recursive function
+def fact(n):
+    if n == 1 or n==0:
+        return 1
+    else:
+        return n*fact(n-1)
+number = int(input("Enter a number:"))
+if number<0:
+    print("factorial of negative number doesn't exist")
+if number>0:
+    print(f'factorial of {number} is {fact(number)}')
