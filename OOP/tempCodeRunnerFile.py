@@ -1,10 +1,7 @@
-class rectangle:
+def odd(x):
+    return True if x%2 == 0 else False
 
-    def __init__(self,l,b):
-        self.l = l
-        self.b = b
-    def perimeter(self):
-        return 2*(self.l + self.b)
+numbers= [ 1,2,3,4,5,6,7,8,9,10]
+filtered_items = filter(odd, numbers)
+print(list[filtered_items])
     
-r1 = rectangle(3,4)
-r1.perimeter
