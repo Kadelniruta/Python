@@ -30,9 +30,7 @@ class Student:
     def has_passed(self):
         return self.marks >= 40
            
-        
-
-student = Student("Aliza", 80)
+        student = Student("Aliza", 80)
 print("Student Details:")
 student.display_details()
 
